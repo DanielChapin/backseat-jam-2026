@@ -1,0 +1,8 @@
+res://addons/twitcher/editor/twitch_editor_settings.gd
+res://addons/twitcher/assets/fallback_texture.tres
+res://addons/twitcher/assets/twitcher_title_label_settings.tres
+res://addons/twitcher/assets/twitcher_theme.tres
+res://addons/twitcher/assets/transparent.tres
+res://addons/twitcher/example/reward/test_reward.tres
+res://twitcher/twitch_oauth_setting.tres
+res://test/twitcher/quickstart.tscn
