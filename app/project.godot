@@ -12,6 +12,7 @@ config_version=5
 
 config/name="ChatSecurityInc"
 config/description="Enter an interesting project description here!"
+run/main_scene="uid://u21lv3i7d5v1"
 config/features=PackedStringArray("4.7")
 config/icon="res://icon.png"
 
@@ -21,4 +22,7 @@ enabled=PackedStringArray("res://addons/twitcher/plugin.cfg")
 
 [twitcher]
 
+editor/game_oauth_token="res://twitcher/twitch_oauth_token.tres"
+editor/game_oauth_setting="res://twitcher/twitch_oauth_setting.tres"
 editor/show_setup_on_startup=false
+editor/resource_folder="res://twitcher"

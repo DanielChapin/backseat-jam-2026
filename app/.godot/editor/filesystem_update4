@@ -6,3 +6,7 @@ res://addons/twitcher/assets/transparent.tres
 res://addons/twitcher/example/reward/test_reward.tres
 res://twitcher/twitch_oauth_setting.tres
 res://test/twitcher/quickstart.tscn
+res://scenes/menus/MainMenu/MainMenu.tscn
+res://scenes/menus/MainMenu/exit_button.gd
+res://scenes/ui/components/ExitButton/ExitButton.tscn
+res://scenes/ui/components/ExitButton/exit_button.gd

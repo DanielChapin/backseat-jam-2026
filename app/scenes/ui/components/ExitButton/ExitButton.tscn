@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://26kmrtmwmrse"]
+
+[ext_resource type="Script" uid="uid://boc4ownwwkac" path="res://scenes/ui/components/ExitButton/exit_button.gd" id="1_j8q4g"]
+
+[node name="ExitButton" type="Button" unique_id=180285948]
+text = "Exit"
+script = ExtResource("1_j8q4g")
+
+[node name="Timer" type="Timer" parent="." unique_id=1695816261]
+one_shot = true
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

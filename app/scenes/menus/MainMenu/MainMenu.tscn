@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://u21lv3i7d5v1"]
+
+[ext_resource type="PackedScene" uid="uid://26kmrtmwmrse" path="res://scenes/ui/components/ExitButton/ExitButton.tscn" id="1_q4ugf"]
+
+[node name="MainMenu" type="Control" unique_id=965465828]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=163556525]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer" unique_id=324415532]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="VBoxContainer/VBoxContainer" unique_id=1998073641]
+layout_mode = 2
+theme_override_font_sizes/font_size = 64
+text = "CHAT SECURITY INC"
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer/VBoxContainer" unique_id=1066284899]
+layout_mode = 2
+alignment = 1
+
+[node name="PanelContainer" type="PanelContainer" parent="VBoxContainer/VBoxContainer/HBoxContainer" unique_id=293890032]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/VBoxContainer/HBoxContainer/PanelContainer" unique_id=2094275611]
+layout_mode = 2
+theme_override_constants/margin_left = 4
+theme_override_constants/margin_top = 4
+theme_override_constants/margin_right = 4
+theme_override_constants/margin_bottom = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/VBoxContainer/HBoxContainer/PanelContainer/MarginContainer" unique_id=2042190785]
+layout_mode = 2
+alignment = 1
+
+[node name="ExitButton" parent="VBoxContainer/VBoxContainer/HBoxContainer/PanelContainer/MarginContainer/VBoxContainer" unique_id=180285948 instance=ExtResource("1_q4ugf")]
+layout_mode = 2
